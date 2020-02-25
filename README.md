@@ -8,7 +8,11 @@ We decided to do a join on the app_id because it is unique to the game itself co
 We used a non-relational database (MongoDB) because some data will be missing especially when our group focused on different categories. Games that are more popular will have more information about them in the database but one that is not as popular may not show up in the data under top 100 of all time from SteamSpy, but may show up under “Free to Play”. A non-relational database is therefore preferred in this case if we want to grab as much information as we can without having to delete some of the keys.
 
 API Resources:
+
 https://steamcommunity.com/dev
+
 https://partner.steamgames.com/doc/webapi_overview
+
 https://developer.valvesoftware.com/wiki/Steam_Web_API
+
 https://steamspy.com/api.php 
